@@ -1,0 +1,55 @@
+CARS
+| ID            |
+|---------------|
+| INT           |
+| PRIMARY_KEY   |
+| AUTO_INCREMENT|
+| UNIQUE        |
+| NOT_NULL      |
+
+| brand         |
+|---------------|
+| VARCHAR(25)   |
+| NOT_NULL      |
+
+| model         |
+|---------------|
+| VARCHAR(50)   |
+| NULL          |
+
+| year          |
+|---------------|
+| YEAR          |
+| NULL          |
+
+| mileage       |
+|---------------|
+| INT           |
+| NOT_NULL      |
+| DEFAULT       |
+
+| price         |
+|---------------|
+| DECIMAL(10,2) |
+| NULL          |
+
+| color         |
+|---------------|
+| VARCHAR(50)   |
+| NOT_NULL      |
+
+| fuel_type     |
+|---------------|
+| VARCHAR(50)   |
+| NOT_NULL      |
+
+| transmission  |
+|---------------|
+| VARCHAR(50)   |
+| NOT_NULL      |
+
+| description   |
+|---------------|
+| TEXT          |
+| DEFAULT(NULL) |
+
